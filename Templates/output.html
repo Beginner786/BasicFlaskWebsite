@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EPASS</title>
+	<link rel="stylesheet" href="op.css">
+</head>
+<style>
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  background: #4bf542;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.para{
+	font-family: Calibri;
+}
+
+</style>
+<body>
+<center><h1 class="para">EPASS</h1><h3>By Government of India</h3></center><hr><hr>
+<div class="card">
+	<center>
+      <h1 style="background: #3caacf;">EPASS</h1>
+		<h2 style="background: #3caacf;">Government of India</h2>
+		<h3>{{var3}}, {{var4}} | --To-- | {{var5}}, {{var6}}</h3>
+		<h3>Date of Journey: {{var8}}</h3>
+	</center>
+ <div class="container">
+	 <center> <h2 style="background: #f28627;">{{var9}}</h2></center><p class="para">
+		 <b>Full Name:  </b> {{var}} <br>
+		 <b>Email:  </b>   {{var1}} <br>
+		 <b>ID Proof/ Aadhaar:  </b>{{var2}} <br>
+		 <b>From:  </b> {{var3}}, {{var4}} <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   To:</b> {{var5}}, {{var6}}<br>
+		 <b>Phone Number:  </b>{{var7}}<br>
+		 <b>Date: </b>{{var8}}<br>
+	 <b>Status:<font style="background: #f28627;">{{var9}}</font></b><br>
+<br>
+
+	 </p>
+ </div>
+<center>
+	<b>
+      <font style="background: #fa3823;">EPASS,
+		  Government of India. This pass is not transferable.</font>
+	</b>
+	</center>
+</div>
+<center>
+<form action="/home"><input type="submit" value="Home"></form></center>
+</body>
+</html>
